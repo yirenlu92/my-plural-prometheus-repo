@@ -1,0 +1,16 @@
+apiVersion: plural.sh/v1alpha1
+kind: ProjectManifest
+metadata:
+  name: ren-prom-cluster-2
+spec:
+  cluster: ren-prom-cluster-2
+  bucket: ren-prom-cluster-2-tf-state
+  project: pluralsh
+  provider: google
+  region: ""
+  owner:
+    email: yirenlu92@gmail.com
+  network:
+    subdomain: tryunitofwork.onplural.sh
+    pluraldns: true
+  context: {}
